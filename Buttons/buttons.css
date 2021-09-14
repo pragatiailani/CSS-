@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/********************************************/
+/******************BUTTON 1******************/
+/********************************************/
+.button1 {
+  height: 10vh;
+  width: 15%;
+  border: 0.01em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40%;
+  margin-top: 15vh;
+  position: relative;
+  font-size: 1.5em;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.button1::before {
+  content: "";
+  height: 10vh;
+  width: 100%;
+  background: black;
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.button1:hover:before {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.button1:hover {
+  color: white;
+}
+
+/********************************************/
+/******************BUTTON 2******************/
+/********************************************/
+.button2 {
+  height: 10vh;
+  width: 15%;
+  border: 0.01em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40%;
+  margin-top: 15vh;
+  position: relative;
+  font-size: 1.5em;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.button2::before {
+  content: "";
+  height: 10vh;
+  width: 100%;
+  background: black;
+  position: absolute;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.button2::after {
+  content: "";
+  height: 10vh;
+  width: 100%;
+  background: black;
+  position: absolute;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.button2:hover:before {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.button2:hover:after {
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+}
+
+.button2:hover {
+  color: white;
+}
+
+/********************************************/
+/******************BUTTON 3******************/
+/********************************************/
+.button3 {
+  height: 10vh;
+  width: 15%;
+  border: 0.01em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40%;
+  margin-top: 15vh;
+  position: relative;
+  font-size: 1.5em;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.button3::before {
+  content: "";
+  height: 10vh;
+  width: 100%;
+  background: black;
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.button3::after {
+  content: "";
+  height: 10vh;
+  width: 100%;
+  background: black;
+  position: absolute;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.button3:hover:before {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.button3:hover:after {
+  -webkit-transform: translateX(40%);
+          transform: translateX(40%);
+}
+
+.button3:hover {
+  color: white;
+}
+
+/********************************************/
+/******************BUTTON 4******************/
+/********************************************/
+.button4 {
+  height: 10vh;
+  width: 15%;
+  border: 0.01em solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40%;
+  margin-top: 15vh;
+  position: relative;
+  font-size: 1.5em;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=buttons.css.map */

@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+$h: 10vh;
+$w: 15%;
+$ml: 40%;
+$mt: 15vh;
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/********************************************/
+/******************BUTTON 1******************/
+/********************************************/
+
+.button1{
+    height: $h;
+    width: $w;
+    border: 0.01em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: $ml;
+    margin-top: $mt; 
+    position: relative;  
+    font-size: 1.5em;
+    z-index: 1;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.button1::before{
+    content: "";
+    height: $h;
+    width: 100%;
+    background: black;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.button1:hover:before{
+    transform: translateX(0%);
+}
+
+.button1:hover{
+    color: white;
+}
+
+/********************************************/
+/******************BUTTON 2******************/
+/********************************************/
+
+
+.button2{
+    height: $h;
+    width: $w;
+    border: 0.01em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: $ml;
+    margin-top: $mt; 
+    position: relative;  
+    font-size: 1.5em;
+    z-index: 1;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.button2::before{
+    content: "";
+    height: $h;
+    width: 100%;
+    background: black;
+    position: absolute;
+    transform: translateY(-100%); 
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.button2::after{
+    content: "";
+    height: $h;
+    width: 100%;
+    background: black;
+    position: absolute;
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.button2:hover:before{
+    transform: translateY(-50%);
+}
+
+.button2:hover:after{
+    transform: translateY(40%);
+}
+
+.button2:hover{
+    color: white;
+}
+
+/********************************************/
+/******************BUTTON 3******************/
+/********************************************/
+
+
+
+.button3{
+    height: $h;
+    width: $w;
+    border: 0.01em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: $ml;
+    margin-top: $mt; 
+    position: relative;  
+    font-size: 1.5em;
+    z-index: 1;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.button3::before{
+    content: "";
+    height: $h;
+    width: 100%;
+    background: black;
+    position: absolute;
+    transform: translateX(-100%); 
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.button3::after{
+    content: "";
+    height: $h;
+    width: 100%;
+    background: black;
+    position: absolute;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.button3:hover:before{
+    transform: translateX(-50%);
+}
+
+.button3:hover:after{
+    transform: translateX(40%);
+}
+
+.button3:hover{
+    color: white;
+}
+
+/********************************************/
+/******************BUTTON 4******************/
+/********************************************/
+
+.button4{
+    height: $h;
+    width: $w;
+    border: 0.01em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: $ml;
+    margin-top: $mt; 
+    position: relative;  
+    font-size: 1.5em;
+    z-index: 1;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    text-transform: uppercase;
+}
